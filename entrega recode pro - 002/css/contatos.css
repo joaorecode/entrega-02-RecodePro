@@ -1,0 +1,63 @@
+/* Cabeçário */
+header {
+    background-color: rgb(41, 32, 58);
+}
+
+/*Conteúdo geral da página*/
+main {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    background-color: #53f5aa;
+    margin-top: 20px;
+    padding-bottom: 100px;
+}
+
+/* Footer */
+#rodapé {
+    width: 100%;
+    height: 240px;
+    background-color: rgb(26, 20, 36);
+    text-align: center;
+    color: white;
+}
+
+#rodapé>p>a {
+    color: #7030c4;
+}
+
+#rodapé>p {
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+/* Responsividade celulares */
+@media only screen and (max-width: 700px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+}
+
+/* Responsividade Tabletes e computadores de tela média */
+@media only screen and (max-width: 1180px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: #8239e2;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+}

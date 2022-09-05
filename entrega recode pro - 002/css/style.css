@@ -1,0 +1,169 @@
+/* STYLE REFERENTE A INDEX.HTML */
+
+/* Cabeçário */
+
+header {
+    background-color: rgb(41, 32, 58);
+}
+
+/*Conteúdo geral da página*/
+main {
+    background-color: #53f5aa;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 20px;
+}
+
+#content-conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#group-a {
+    display: flex;
+    align-items: center;
+}
+
+#group-b {
+    display: flex;
+    align-items: center;
+
+}
+
+#group-c {
+    display: flex;
+    align-items: center;
+}
+
+#img-1 {
+    width: 600px;
+    height: 420px;
+    margin-right: 70px;
+}
+
+#img-2 {
+    width: 700px;
+    height: 420px;
+}
+
+#img-3 {
+    width: 700px;
+    height: 420px;
+}
+
+#conteudo-1-2 {
+    text-align: center;
+    color: rgb(33, 27, 44);
+    margin-right: 50px;
+}
+
+#conteudo-2-1 {
+    text-align: center;
+    color: rgb(33, 27, 44);
+}
+
+#conteudo-3-2 {
+    text-align: center;
+    color: rgb(33, 27, 44);
+    margin-right: 40px;
+}
+
+/* Footer */
+#rodapé {
+    width: 100%;
+    height: 140px;
+    background-color: rgb(26, 20, 36);
+    text-align: center;
+    color: white;
+}
+
+#rodapé>p>a {
+    color: #7030c4;
+}
+
+#rodapé>p {
+    padding-top: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Responsividade celulares */
+@media only screen and (max-width: 700px) {
+    #group-a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #group-b {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    #group-c {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    #img-1 {
+        width: 80%;
+        height: 80%;
+    }
+
+    #img-2 {
+        width: 80%;
+        height: 80%;
+    }
+
+    #img-3 {
+        width: 80%;
+        height: 80%;
+    }
+}
+
+/* Responsividade Tabletes e computadores de tela média */
+@media only screen and (max-width: 1180px) {
+    #content-conteiner {
+        align-items: center;
+        justify-content: center;
+    }
+
+    #group-a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #group-b {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    #group-c {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    #img-1 {
+        width: 80%;
+        height: 80%;
+    }
+
+    #img-2 {
+        width: 80%;
+        height: 80%;
+    }
+
+    #img-3 {
+        width: 80%;
+        height: 80%;
+    }
+}
